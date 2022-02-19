@@ -1,1 +1,3 @@
-### `AgencyWebsitePhpMysqlAjaxBootstrap`
+# PHP + MySQL + AJAX + Bootstrap
+
+The Data Layer is implemented on a MySql server, which can be managed via Apache by an administrator. It is exposed by the MySql server. This is an agency website with 2 databases, one for user messages and one for products. The clients can send messages which are stored in the database an the messages can be read. It can be added new products in the database and the products can be read. The Business Logic Layer is written in PHP. It fetch informations from database, sends data from form controls to database, makes posts to the database. The Presentation Layer is written in HTML, CSS, Bootstrap and AJAX (JavaScript). There are forms to add new messages and new products.
